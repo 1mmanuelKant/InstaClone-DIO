@@ -1,4 +1,4 @@
-:root{
+:root {
   --border-primary-color: rgb(219, 219, 219);
   --button-submit: rgb(0, 149, 246);
 }
@@ -9,7 +9,7 @@
   font-family: sans-serif;
 }
 
-body{
+body {
   display: flex;
   flex-flow: row nowrap;
 
@@ -22,7 +22,7 @@ body{
   width: 100%;
 }
 
-.cellphone{
+.cellphone {
   display: flex;
 
   width: 50%;
@@ -30,7 +30,7 @@ body{
   justify-content: center;
 }
 
-.insta-wrapper{
+.insta-wrapper {
   display: flex;
 
   width: 60%;
@@ -40,11 +40,11 @@ body{
   flex-flow: row wrap;
 }
 
-.insta-wrapper img{
+.insta-wrapper img {
   width: 43.75rem;
 }
 
-.insta-continue{
+.insta-continue {
   display: flex;
   flex-flow: column wrap;
 
@@ -55,23 +55,23 @@ body{
   text-align: center;
 }
 
-.group{
+.group {
   display: flex;
   flex-flow: column wrap;
 
   padding-block: 1.125rem;
 
   align-items: center;
-  
+
   border: solid 1px lightgray;
   background-color: #fff;
 }
 
-.group:nth-child(1){
+.group:nth-child(1) {
   gap: 1rem;
 }
 
-.group button{
+.group button {
   border: none;
   background-color: var(--button-submit);
 
@@ -84,31 +84,31 @@ body{
 
 /* ====== REMOVE ====== */
 
-a{
+a {
   text-decoration: none;
 
   color: var(--button-submit);
 }
 
-img.insta-logo{
+img.insta-logo {
   width: 9.375rem;
 }
 
-img.profile-photo{
+img.profile-photo {
   width: 5.25rem;
 
   border-radius: 50%;
 }
 
-.get-app img{
+.get-app img {
   width: 8.875rem;
 }
 
-.group:nth-child(2) p{
+.group:nth-child(2) p {
   color: gray;
 }
 
-.get-app .images{
+.get-app .images {
   display: flex;
 
   padding: 0.875rem;
@@ -116,4 +116,22 @@ img.profile-photo{
   justify-content: center;
 
   gap: 1.75rem;
+}
+
+@media (max-width: 650px) {
+  body {
+    background-color: #fff;
+  }
+
+  .instagram-wrapper {
+    width: 90%;
+  }
+
+  .cellphone {
+    display: none;
+  }
+
+  .insta-continue {
+    width: 100%;
+  }
 }
