@@ -25,7 +25,7 @@ body {
 .cellphone {
   display: flex;
 
-  width: 50%;
+  width: 40%;
 
   justify-content: center;
 }
@@ -33,7 +33,7 @@ body {
 .insta-wrapper {
   display: flex;
 
-  width: 60%;
+  width: 100%;
 
   align-items: center;
 
@@ -74,6 +74,8 @@ body {
 .group button {
   border: none;
   background-color: var(--button-submit);
+
+  cursor: pointer;
 
   padding: 0.5rem;
   font-size: 0.875rem;
@@ -118,13 +120,13 @@ img.profile-photo {
   gap: 1.75rem;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   body {
     background-color: #fff;
   }
 
-  .instagram-wrapper {
-    width: 90%;
+  .insta-wrapper {
+    width: auto;
   }
 
   .cellphone {
@@ -136,6 +138,6 @@ img.profile-photo {
   }
 
   .insta-continue {
-    width: 100%;
+    width: 80%;
   }
 }
