@@ -131,6 +131,10 @@ img.profile-photo {
     display: none;
   }
 
+  .footer-content {
+    display: none;
+  }
+
   .insta-continue {
     width: 100%;
   }
